@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# a simple bash script to find all the active ip addresses in use
+# and then print their names
+
 for i in {1..254}
 do
    ip=192.168.1.$i;
